@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notes::Home</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <img src="images/Math.svg" width="50" height="40">
+          <h1>Math Notes</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">
+                  Subject
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Books</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <h1>Welcome! to this site</h1><p class="lead">This website contains notes of some Fundamental subject of Mathematics e.g. Real Analysis, Complex Analysis, Numerical analysis, Method of Applied Mathematics, Abstract Algebra and so on.</p>
+      </div>
+      <div class="shadow p-3 mb-5 bg-body rounded"><a href="#">Real Analysis</a>
+        <p class="lead">This course covers the fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, and the interchange of limit operations. It shows the utility of abstract concepts and teaches an understanding and construction of proofs.</p>
+      </div>
+      <div class="shadow p-3 mb-5 bg-body rounded"><a href="#">Complex Analysis</a>
+        <p class="lead">Complex analysis is the study of complex numbers together with their derivatives, manipulation, and other properties. Complex analysis is an extremely powerful tool with an unexpectedly large number of practical applications to the solution of physical problems.
+          The key result in complex analysis is the Cauchy integral theorem, which is the reason that single-variable complex analysis has so many nice results.
+        </p>
+      </div>
+      <div class="shadow p-3 mb-5 bg-body rounded"><a href="#">Numerical Analysis</a>
+        <p class="lead">numerical analysis, area of mathematics and computer science that creates, analyzes, and implements algorithms for obtaining numerical solutions to problems involving continuous variables. Such problems arise throughout the natural sciences, social sciences, engineering, medicine, and business.</p>
+        <p class="lead">Numerical analysis is concerned with all aspects of the numerical solution of a problem, from the theoretical development and understanding of numerical methods to their practical implementation as reliable and efficient computer programs. </p>
+      </div>
+      <div class="shadow p-3 mb-5 bg-body rounded"><a href="#">Method of Applied Mathematics</a>
+        <p class="lead">This course is about classical techniques in applied mathematics and demonstrate their application to specific problems. Possible topics include variational, integral, and partial differential equations; Green's functions</p>
+      </div>
+      <div class="shadow p-3 mb-5 bg-body rounded"><a href="#">Abstract Algebra</a>
+        <p class="lead">Abstract algebra is the set of advanced topics of algebra that deal with abstract algebraic structures rather than the usual number systems. The most important of these structures are groups, rings, and fields. Important branches of abstract algebra are commutative algebra, representation theory, and homological algebra.</p>
+      </div>
+      <footer class="bg-info">
+        <p class="lead">&copy;2021 All right Reserved MathNotes.com</p>
+      </footer>  
 </body>
 </html>
